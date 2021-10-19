@@ -76,5 +76,20 @@ ul li {
     
 	.wrapper {
 		min-width: 860px;
+		margin-top: 140px;
   }
+	.component {
+		display: grid;
+		grid-template-columns: 425px 425px;
+		grid-template-rows: 280px 325px;
+	}
+	header {
+		grid-column-start: span 2;
+	}
+	.subscription {
+		
+	}
+	.whyUs {
+		
+	}
 }
